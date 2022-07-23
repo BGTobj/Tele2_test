@@ -1,0 +1,26 @@
+@import 'base/variables';
+@import 'blocks/header';
+@import 'base/media';
+@import 'blocks/registration';
+@import 'blocks/buttons';
+@import 'blocks/forms';
+@import 'blocks/action';
+@import 'blocks/titles';
+@import 'blocks/location';
+@import 'blocks/timetable';
+@import 'blocks/faq';
+@import 'blocks/footer';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1250px;
+    margin: 0 auto;
+}

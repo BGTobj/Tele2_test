@@ -1,0 +1,46 @@
+.footer {
+    position: relative;
+    margin-top: 38px;
+    background-color: $main-color;
+    min-height: 110px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title, &__tel {
+        padding: 34px 0 34px 0;
+        font-family: 'Tele2 DisplaySerif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-align: justify;
+    }
+    &__tel {
+        /* font-family: 'Tele2 DisplaySerif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 42px;
+        color: #FFFFFF; */
+        padding: 0;
+        text-decoration: none;
+        border-bottom: 0.5px solid #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 845px) {
+    .footer {
+        &__wrapper {
+            display: block;
+        }
+        &__title, &__tel {
+            padding: 16px 0 0 16px;
+        }
+    }
+}

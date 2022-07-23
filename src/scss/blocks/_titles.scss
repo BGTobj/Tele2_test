@@ -1,0 +1,30 @@
+.title {
+    font-family: 'Standard CT Stencil';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: $main_color;
+    &_loc {
+        color: #fff;
+    }
+}
+.descr {
+    margin-top: 32px;
+    font-family: 'Tele2 TextSans Web SHORT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: $main_color;
+    &_loc {
+        color: #fff;
+    }
+}
+
+@media (max-width: 1249px) {
+    .title {
+        padding: 0 0 0 16px;
+    }
+}
